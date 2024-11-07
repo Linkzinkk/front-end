@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #F08080
+    ;
+}
+
+header {
+    background-color: #660000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+nav ul.CABEÇALHO {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul.CABEÇALHO li {
+    display: inline;
+}
+
+nav ul.CABEÇALHO a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul.CABEÇALHO a:hover {
+    color: #cacaca;
+}
+
+/* Estilos para a seção principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #8B0000;
+}
+
+.motivos {
+    margin-left: 20px;
+}
+section h2 {
+    color: #3b0b0b;
+    margin-bottom: 10px;
+    font-size: 1s.5em;
+}
+
+section p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para Perguntas Frequentes */
+h3 {
+    color: #8B0000;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.Perguntas {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.respostas {
+    margin-left: 20px;
+    font-size: 1em;
+    color: #000000;
+    padding: 10px;
+    background-color: #FFEBEB;
+    border-radius: 5px;
+    border: 1px solid#FFEBEB;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #222222; /* Ebony para o rodapé */
+    color: #F5F5F5; /* Light Smoke */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #F08080; /* Light Crimson */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo adicional para ênfase */
+em {
+    color: #E97451; /* Burnt Sienna */
+}
