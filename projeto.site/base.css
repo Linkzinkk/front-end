@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+/* Estilo global */
+body {
+    background-color: #F08080; /* Light Crimson */
+    color: #000000; /* Charcoal para o texto principal */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do Cabeçalho */
+header.titulo {
+    background-color: #660000; /* Blood Red */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #FAD4D4; /* Pale Rose */
+}
+
+/* Navegação principal */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+    padding: 20px;
+}
+
+aside h2 {
+    color: #8B0000; /* Dark Crimson para subtítulos */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+aside p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilo da seção de produtos */
+section article h3 {
+    color: #8B0000; /* Dark Crimson para subtítulos */
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+section article img {
+    border: 2px solid #660000; /* Blood Red */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+section article p {
+    margin-top: 10px;
+    color: #000000;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #222222; /* Ebony para o rodapé */
+    color: #F5F5F5; /* Light Smoke */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #F08080; /* Light Crimson */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo adicional para ênfase */
+em {
+    color: #E97451; /* Burnt Sienna */
+}
